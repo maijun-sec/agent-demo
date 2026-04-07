@@ -41,7 +41,7 @@ DECISION_PROMPT_TEMPLATE = """
 os.environ["NO_PROXY"] = "localhost,127.0.0.1,::1"
 
 llm = init_chat_model(
-    model='ollama.rnd.huawei.com/library/qwen3:1.7b',
+    model='qwen3:1.7b',
     model_provider='ollama',
     base_url='http://127.0.0.1:11434'
 )
